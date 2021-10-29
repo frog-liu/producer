@@ -1,0 +1,17 @@
+# 服务名
+spring:
+  application:
+    name: producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        namespace: 47caa19e-c115-49c5-9bf5-0aaddf911257
+      config:
+        file-extension: yaml
+        username: nacos
+        password: nacos
+        namespace: 47caa19e-c115-49c5-9bf5-0aaddf911257
+
